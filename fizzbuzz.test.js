@@ -33,4 +33,12 @@ describe('FizzBuzz Challenge', () => {
     // Entonces el resultado debe ser "FizzBuzz"
     expect(result).toBe('FizzBuzz');
   });
+
+  it('should throw an error when the input is not a number', () => {
+    // Dado que proporciono el valor "hola"
+    const input = 'hola';
+    
+    // Cuando y Entonces: Debe lanzarse un error con un mensaje específico
+    expect(() => fizzBuzz(input)).toThrow('The provided data is not a number');
+  });
 });
