@@ -22,4 +22,15 @@ describe('FizzBuzz Challenge', () => {
     // Then
     expect(result).toBe('Buzz');
   });
+
+  it('should return "FizzBuzz" when the number is divisible by both 3 and 5', () => {
+    // Dado que proporciono el número 15
+    const input = 15;
+    
+    // Cuando ejecuto la función
+    const result = fizzBuzz(input);
+    
+    // Entonces el resultado debe ser "FizzBuzz"
+    expect(result).toBe('FizzBuzz');
+  });
 });
