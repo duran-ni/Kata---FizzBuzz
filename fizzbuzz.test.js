@@ -34,6 +34,17 @@ describe('FizzBuzz Challenge', () => {
     expect(result).toBe('FizzBuzz');
   });
 
+  it('should return the number as a string when it is not divisible by 3 or 5', () => {
+    // Dado que proporciono el número 7
+    const input = 7;
+    
+    // Cuando ejecuto la función
+    const result = fizzBuzz(input);
+    
+    // Entonces el resultado debe ser "7"
+    expect(result).toBe('7');
+  });
+
   it('should throw an error when the input is not a number', () => {
     // Dado que proporciono el valor "hola"
     const input = 'hola';
