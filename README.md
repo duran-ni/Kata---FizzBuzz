@@ -19,7 +19,7 @@ Estrategia de desarrollo dividida en hitos incrementales:
 **Higiene del Repositorio**: Mantenimiento de un árbol de Git limpio, utilizando ramas de tareas de vida corta (Feature Branches) y eliminándolas localmente tras su fusión exitosa en la rama estable de desarrollo.
 # Capturas del Proyecto
 ## Evidencia de Pruebas Automatizadas
-![Vitest Passing Tests](./assets/test-results.PNG)
+![Vitest Passing Tests](./assets/foto.png)
 
 # 💻Tecnologías Utilizadas
 Las decisiones tecnológicas del proyecto se basan en estándares modernos de la industria:
@@ -48,3 +48,5 @@ El historial de este repositorio se ha estructurado de forma semántica, registr
 - git commit -m "feat: add main script to print fizzbuzz sequence from 1 to 100"
 
 - git commit -m "docs: structure README with description, analysis, planning, tech, and commits layout"
+
+- git commit -m "docs: rename screenshot file to lowercase and update readme link"
